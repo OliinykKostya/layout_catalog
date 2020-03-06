@@ -124,6 +124,16 @@ p {
   width: 160px;
   padding-top: 30px; }
 
+.item__img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 1s;
+  transition: 1s; }
+
+.border--hover:hover {
+  border: 3px solid #f3f3f3;
+  border-radius: 2px; }
+
 .item__info {
   margin-top: 45px;
   width: 170px;
